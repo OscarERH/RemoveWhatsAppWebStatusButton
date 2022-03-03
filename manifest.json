@@ -1,0 +1,12 @@
+{
+  "name": "Remove WhatsApp Status Button",
+  "description": "Helpfull utility to use WhatsApp Web without the annoying status button",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/"],
+      "js": ["index.js"]
+    }
+  ]
+}
